@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "ACAA,AAAA,KAAK,CAAC;EACJ,kBAAkB,CAAA,QAAC;EACnB,oBAAoB,CAAA,QAAC;EACrB,iBAAiB,CAAA,QAAC;EAClB,kBAAkB,CAAA,QAAC;EACnB,mBAAmB,CAAA,QAAC;EACpB,cAAc,CAAA,QAAC;EACf,mBAAmB,CAAA,QAAC;EACpB,cAAc,CAAA,QAAC;EACf,cAAc,CAAA,QAAC;EACf,cAAc,CAAA,QAAC;EACf,YAAY,CAAA,QAAC;EACb,gCAAgC,CAAA,wBAAC;EACjC,UAAU,CAAA,mBAAC;CACZ",
     "sources": [
-        "main.scss",
-        "utils/_vars.scss"
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss"
     ],
     "names": [],
     "file": "main.css"
