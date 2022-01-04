@@ -1,0 +1,60 @@
+.header {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--button-color);
+  color: var(--second-title-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--main-title-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item-company {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.portfolio-item-project {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.portfolio-buttons {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.portfolio-button-item {
+  margin-right: 10px;
+}
+
+.portfolio-button-item:last-child {
+  margin-right: 0px;
+}
+
+.portfolio-button {
+  padding: 6px 22px;
+  border-radius: 4px;
+  border-style: none;
+}

@@ -1,1 +1,16 @@
+@import './base/reset';
 @import './utils/variables';
+
+@import './components/container';
+@import './components/header';
+@import './components/hero';
+@import './components/about';
+@import './components/what-we-do';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+
+@import './components/portfolio-buttons';
+@import './components/portfolio-projects';
+
+@import './components/modal';
