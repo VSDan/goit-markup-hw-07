@@ -194,9 +194,11 @@
   fill: #ffffff;
 }
 
-.modal-check:checked + .check-text .check-item {
-  background-color: var(--accent-color);
-  border: 0px;
+.modal-check:checked + .check-text {
+  .check-item {
+    background-color: var(--accent-color);
+    border: 0px;
+  }
 }
 
 .visually-hidden {
